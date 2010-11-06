@@ -1,0 +1,75 @@
+\pdfprotrudechars2
+\pdfadjustspacing2
+\pdfminorversion=7
+\pdfcompresslevel=9
+\pdfobjcompresslevel=3
+\documentclass[initial=ZallmanCaps,staff=19,font=greciliae,11pt,a4paper,openany,twoside,choralsign=PfefferMediaeval]{gregorian}
+\usepackage[a4paper,twoside,inner=3cm,outer=1.5cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[ngerman,pdfstartview={FitH},bookmarksopen,colorlinks=true,menucolor=black,urlcolor=black,linkcolor=black]{hyperref}
+\newfontfeature{Microtype}{protrusion=default;expansion=default;}
+\setmainfont[Microtype,Ligatures={Common,TeX},Numbers=OldStyle]{Linux Libertine O}
+\setsansfont[Microtype,Ligatures={Common,TeX},Numbers=OldStyle,SmallCapsFont={Alcuin URW SC}]{Alcuin URW}
+\setmonofont[Microtype,Ligatures={TeX}]{Inconsolata}
+\sloppy
+\pagestyle{myheadings}
+\makefootrule{myheadings}{\textwidth}{0.4pt}{\footruleskip}
+\makeheadrule{myheadings}{\textwidth}{0pt}
+\makeevenfoot{myheadings}{\thepage}{\gebet}{}
+\makeoddfoot{myheadings}{}{\gebet}{\thepage}
+\makeevenhead{myheadings}{\rightmark}{}{}
+\makeoddhead{myheadings}{\hphantom{\thechapter}}{}{}
+\hbadness 99999
+\renewcommand{\greabovelinestextstyle}{\scriptsize}
+\begin{document}
+\frontmatter
+\thispagestyle{empty}
+\ThisTileWallPaper{21cm}{\paperheight}{lskj.pdf}
+\phantom{l}
+\vskip12em
+\begin{center}
+{\Huge\bfseries\sffamily GREGORIANISCHES BREVIER}\par\vskip0.5em
+{\Huge\bfseries\sffamily STUNDENGEBETBUCH}\par
+{\sffamily\scshape Laudes -- Sext -- Vesper -- Complet}\par
+{\sffamily\scshape Reisesegen -- lateinische Vesper und Complet}\par
+\vskip3em
+{\large\bfseries\sffamily\scshape Lutherhaus Jena}
+ \vfill
+\end{center}
+\newpage
+\thispagestyle{empty}
+\textit{gewidmet Dr. Bernhard Gröbler}\par
+\vfill
+\begin{center}
+\textsc{Ich danke allen,}\par
+\textsc{die an der Erstellung dieses Buches direkt und indirekt beteiligt waren,
+insbesondere:}\par\vskip0.5em
+\textsc{Dem Liturgischen Singkreis Jena und seinen Mitgliedern,}\par
+\textsc{Élie Roux und dem Gregorio-Team für Gregorio, mit dem dieses Buch gesetzt wurde,}\par
+\textsc{Meiner Familie und meinen Freunden für Unterstützung bei der Erstellung,}\par
+\textsc{Der Erzabtei St. Ottilien, an der ich mit dem Gregorianischen Choral in Berührung kam.}\par
+\end{center}
+\vfill
+\begin{framed}
+3. Aufl. \textcopyright~2010. \textit{Auf der Grundlage des Buches Liturgie III und des Breviarium Lipsiens\ae{} der Evangelisch Lutherischen Gebetsbruderschaft erstellt und bearbeitet von:}\par
+David Gippner M.A.\par
+Hans-Berger-Straße 20\par
+07747 Jena.\par
+\textit{\href{http://creativecommons.org/licenses/by-nc-sa/3.0/de/}{\includegraphics{88x31.png}} Dieses Werk steht unter einer \href{http://creativecommons.org/licenses/by-nc-sa/3.0/de/}{Creative Commons Namensnennung-Keine kommerzielle Nutzung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz}.}\par\vskip0.5em
+\end{framed}
+\newpage
+\tableofcontents\vfill
+\begin{center}
+\scalebox{1.6}{\Huge\initfamily SOLI DEO GLORIA}
+\end{center}
+\vfill
+\mainmatter
+\input{erklaerung}
+\input{laudes}
+\input{sext}
+\input{vesper}
+\input{complet-luh}
+\input{reisesegen}
+\input{rsp-prolixa}
+\input{complet-advent}
+\input{lateinisch}
+\end{document}

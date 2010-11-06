@@ -1,0 +1,185 @@
+\pdfprotrudechars2
+\pdfadjustspacing2
+\pdfminorversion=7
+\pdfcompresslevel=9
+\pdfobjcompresslevel=3
+\documentclass[initial=ZallmanCaps,staff=19,font=greciliae,11pt,a4paper,openany,twoside,choralsign=PfefferMediaeval]{gregorian}
+\usepackage[ngerman,pdfstartview={FitH},bookmarksopen,colorlinks=true,menucolor=black,urlcolor=black,linkcolor=black]{hyperref}
+\newfontfeature{Microtype}{protrusion=default;expansion=default;}
+\setmainfont[Microtype,Ligatures={Common,TeX},Numbers=OldStyle]{Linux Libertine O}
+\setsansfont[Microtype,Ligatures={Common,TeX},Numbers=OldStyle,SmallCapsFont={Alcuin URW SC}]{Alcuin URW}
+\setmonofont[Microtype,Ligatures={TeX}]{Inconsolata}
+\sloppy
+\usepackage[a4paper,twoside,inner=3cm,outer=1.5cm,top=2cm,bottom=2cm]{geometry}
+\pagestyle{myheadings}
+\makefootrule{myheadings}{\textwidth}{0.4pt}{\footruleskip}
+\makeheadrule{myheadings}{\textwidth}{0pt}
+\makeevenfoot{myheadings}{\thepage}{\gebet}{}
+\makeoddfoot{myheadings}{}{\gebet}{\thepage}
+\makeevenhead{myheadings}{\rightmark}{}{}
+\makeoddhead{myheadings}{\hphantom{\thechapter}}{}{}
+\hbadness 99999
+\renewcommand{\greabovelinestextstyle}{\scriptsize}
+\begin{document}
+\frontmatter
+\thispagestyle{empty}
+\ThisTileWallPaper{21cm}{\paperheight}{lskj.pdf}
+\phantom{l}
+\vskip12em
+\begin{center}
+\Huge \scalebox{1.5}{\huge\bfseries\sffamily ~COMPLETORIUM}\par\vskip0.5em
+ \scalebox{2}{\scriptsize\itshape\sffamily\scshape Nachtgebet -- Auszug aus dem Stundengebetbuch}\par
+ \vskip3em
+ \scalebox{1.3}{\large\bfseries\sffamily\scshape Lutherhaus Jena}
+\end{center}
+\newpage
+\thispagestyle{empty}
+\textit{gewidmet Dr. Bernhard Gröbler}\par
+\vfill
+\begin{center}
+\textsc{Ich danke allen,}\par
+\textsc{die an der Erstellung dieses Buches direkt und indirekt beteiligt waren,
+insbesondere:}\par\vskip0.5em
+\textsc{Dem Liturgischen Singkreis Jena und seinen Mitgliedern,}\par
+\textsc{Élie Roux und dem Gregorio-Team für Gregorio, mit dem dieses Buch gesetzt wurde,}\par
+\textsc{Meiner Familie und meinen Freunden für Unterstützung bei der Erstellung,}\par
+\textsc{Der Erzabtei St. Ottilien, an der ich mit dem Gregorianischen Choral in Berührung kam.}\par
+\end{center}
+\vfill
+\begin{framed}
+3. Aufl. \textcopyright~2010. \textit{Auf der Grundlage des Buches Liturgie III und des Breviarium Lipsiens\ae{} der Evangelisch Lutherischen Gebetsbruderschaft erstellt und bearbeitet von:}\par
+David Gippner M.A.\par
+Hans-Berger-Str. 20\par
+07747 Jena.\par
+\textit{\href{http://creativecommons.org/licenses/by-nc-sa/3.0/de/}{\includegraphics{88x31.png}} Dieses Werk steht unter einer \href{http://creativecommons.org/licenses/by-nc-sa/3.0/de/}{Creative Commons Namensnennung-Keine kommerzielle Nutzung-Weitergabe unter gleichen Bedingungen 3.0 Deutschland Lizenz}.}\par\vskip0.5em
+\end{framed}
+\newpage
+\tableofcontents\vfill
+\begin{center}
+\scalebox{1.6}{\Huge\initfamily SOLI DEO GLORIA}
+\end{center}
+\vfill
+\newpage
+\mainmatter
+\input{complet-luh}
+   %****************************** Anhang *********************************************************
+\input{complet-advent}
+\chapter{Ad Completorium in Dominicis}
+\def\gebet{\textsc{Complet (lateinisch)}}
+\textit{Lector:}\par
+\includegabcscore{cp-jube.gabc}\par
+\textit{Præses Chori:}\par
+\includegabcscore{cp-noctem.gabc}\par
+\section*{Lectio (1 Pe 5,8-9)}
+\includegabcscore{cp-lectio.gabc}
+\section*{Versiculum}
+\includegabcscore{cp-adiutorium.gabc}
+\newpage
+\section*{Confiteor}
+\Vbar Confiteor Deo omnipotenti et vobis fratres, quia peccavi nimis, cogitatione, verbo et opere: mea culpa, mea culpa, mea maxima culpa. Ideo precor vos fratres, orare pro me ad Dominum Deum nostrum.\par
+\Rbar Misereatur tui omnipotens Deus, et dimissis peccatis tuis, perducat te ad vitam æternam.\\\Vbar Amen.\par
+\Rbar Confitemur Deo omnipotenti et tibi frater, quia peccavimus nimis, cogitatione, verbo et opere: nostra culpa, nostra culpa, nostra maxima culpa. Ideo precamur te frater, orare pro nobis ad Dominum Deum nostrum.\par
+\Vbar Misereatur vestri omnipotens Deus, et dimissis peccatis vestris, perducat vos ad vitam æternam.\\\Rbar Amen.\par
+\Vbar Indulgentiam, absolutionem, et remissionem peccatorum nostrorum tribuat nobis omnipotens et misericors Dominus.\\\Rbar Amen.\par
+\vskip0.5em
+\section*{Versiculum}
+\includegabcscore{cp-converte.gabc}
+\section*{Ingressus}
+\includegabcscore{cp-ingressus.gabc}\newpage
+\ueberinitiale{\Abar}{VIII G}
+\commentary{\small\textit{Ps. 4}}
+\includegabcscore{a-miserere.gabc}\par
+\begin{multicols}{2}\setlength{\columnseprule}{0.2px}
+Miserere 'mei \grestar{} et exaudi orati'onem meam.\par
+\einzug{Filii hominum, usquequo gravi 'corde \grestar{} ut quid diligitis vanitatem et quæri'tis mendacium?}\par
+Et scitote quoniam mirificavit Dominus sanctum 'suum \grestar{} Dominus exaudiet me cum clamave'ro ad eum.\par
+\einzug{Irascimini, et nolite peccare \gredagger{} quæ dicitis in cordibus 'vestris \grestar{} in cubilibus vestris 'compungimini.}\par
+Sacrificate sacrificium iustitiæ \gredagger{} et sperate in 'Domino \grestar{} Multi dicunt: quis ostendit 'nobis bona?\par
+\einzug{Signatum est super nos lumen vultûs tui 'Domine \grestar{} dedisti lætitiam in 'corde meo.}\par
+A fructu frumenti, vini et olei 'sui \grestar{} mul'tiplicati sunt.\par
+\einzug{In pace in id 'ipsum \grestar{} dormiam et 'requiescam.}\par
+Quoniam tu Domine singulariter 'in spe \grestar{} con'stituisti me.\par
+\einzug{Gloria Patri et 'Filio \grestar{} et Spiri'tui Sancto.}\par
+Sicut erat in principio et nunc et 'semper \grestar{} et in sæcula sæcu'lorum. Amen.
+\end{multicols}\par
+\section*{Capitel}
+\commentary{\small\textit{Jer 14,9}}
+\includegabcscore{cp-capitel.gabc}\newpage
+\section*{Responsorium Breve}
+\ueberinitiale{\small\Rbar}{VI}
+\includegabcscore{rs-inmanus.gabc}\par
+\section*{Responsorium Prolixum}
+\ueberinitiale{\small\Rbar}{II}
+\includegabcscore{rs-tua.gabc}\newpage
+\section*{Hymni}
+\textit{secundum ordinem}\par
+\includegabcscore{h-telucis.gabc}\par
+\begin{multicols}{2}\setlength{\columnseprule}{0.2px}
+Procul recedant somnia / et noctium phantasmata // Hostemque nostrum comprime / Ne polluantur corpora.\par
+\einzug{\Abar~Præsta Pater piissime / Patrique compar unice // Cum Spiritu Paraclito / Regnans per omne sæculum. Amen.}\par
+\end{multicols}
+\textit{in festis}\par
+\ueberinitiale{\Rbar}{II}
+\includegabcscore{h-utqueant.gabc}\par
+\vskip9bp
+\begin{multicols}{2}\setlength{\columnseprule}{0.2px}
+Nuntius celso veniens Olympo / Te patri magnum fore nasciturum // Nomen, et vitæ seriem gerend\ae / Ordine promit.\par
+\einzug{Ille promissi dubius superni, / Perdidit promptæ modulos loquelæ: // Sed reformasti genitus perempt\ae / Organa vocis}.\par\vfill\columnbreak
+Ventris obstruso recubans cubili / Senseras Regem thalamo manentem: // Hinc parens nati meritis uterque / Abdita pandit.\par
+\einzug{\Abar~Sit decus Patri, genitæque Proli, / Et tibi compar utriusque virtus, // Spiritus semper, Deus unus, omni / Temporis ævo. Amen.}\par
+\end{multicols}\par\vskip9mm
+\section*{Versiculum}
+\includegabcscore{cp-custodi.gabc}\newpage
+\section*{Canticum Simeonis - \enquote{nunc dimittis}}
+\includegabcscore{cp-nuncdimittis.gabc}\par
+\begin{multicols}{2}\setlength{\columnseprule}{0.2px}
+Quia viderunt 'oculi mei: \grestar{} salu'tare tuum.\par
+\einzug{'Quod parasti: \grestar{} ante faciem omnium 'populorum.}\par
+Lumen ad revelati'onem gentium: \grestar{} et gloriam plebis 'tuæ Israel.\par
+\einzug{Gloria 'Patri et Filio \grestar{} et Spi'ritui Sancto.}\par
+Sicut erat in principio et 'nunc et semper \grestar{} et in sæcula sæcu'lorum. Amen.\par\vfill
+($\rightarrow$ \textit{Salva nos, Domine...})
+\end{multicols}
+\section*{Orationes}
+\includegabcscore{kyrie2.gabc}\par
+\includegabcscore{cp-paternoster.gabc}\par
+\begin{center}
+\begin{tabular}{p{7cm}p{7cm}}
+\Vbar Carnis resurrectionem. & \Rbar Vitam æternam. Amen.\\
+\Vbar Dignare, Domine, nocte ista & \Rbar Sine peccato nos custodire.\\
+\Vbar Miserere nostri, Domine. & \Rbar Miserere nostri.\\
+\Vbar Fiat misericordia tua, Domine, super nos. & \Rbar Quemadmodum speravimus in te.\\
+\Vbar Domine, exaudi orationem meam. & \Rbar Et clamor meus ad te veniat.\\
+\Vbar Dominus vobiscum. & \Rbar Et cum spiritu tuo.\\ \Vbar Oremus. & \\
+\end{tabular}
+\end{center}
+\subsection*{Oratio}
+{\small\textit{Schema melodiæ}}\par
+\includegabcscore{cp-schema.gabc}\par
+Visita, quæsumus Domine, habitationem istam, et omnes insidias inimici ab ea longe repelle \gredagger{} Angeli tui sancti habitent in ea, qui nos in 'pace custodiant / et benedictio tua sit super nos semper.\par
+Per Dominum nostrum Jesum Christum Filium tuum \gredagger{} qui tecum vivit et regnat in unitate Spiri'tus Sancti Deus / per omnia sæcula sæculorum. \Rbar Amen.
+\vskip0.6em
+\section*{Benedicamus}
+\includegabcscore{benedicamus3.gabc}\par
+\textit{vel:}\par
+\ueberinitiale{II}{}
+\includegabcscore{benedicamus2.gabc}\par
+\subsection*{Benedictio}
+\Vbar Benedicat et custodiat nos omnipotens et misericors Dominus, \grecross Pater, et Filius, et Spiritus Sanctus.\par
+\Rbar Amen.
+\begin{center}
+{\centering{\scalebox{3}{\grecross}}}
+\end{center}
+\chapter{Antiphonæ B. M. V.}
+\def\gebet{\textsc{Marienantiphonen}}
+\section*{Salve Regina}\par
+\ueberinitiale{\Abar}{I}
+\commentary{\small\textit{sollemnis}}
+\includegabcscore{salveregina.gabc}\newpage
+\section*{Regina cæli}\par
+\ueberinitiale{\Abar}{VI}
+\includegabcscore{reginacaeli.gabc}\par
+\begin{center}
+{\centering{\scalebox{3}{\grecross}}}
+\end{center}
+\end{document}

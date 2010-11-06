@@ -1,0 +1,115 @@
+\chapter[Einführung]{Einführung in das Gregorianische Brevier}
+\def\gebet{\textsc{Einführung}}
+Im vorliegenden Buch findet man eine Auswahl aus dem \textit{Breviarium
+Lipsiensæ}, dem Leipziger Brevier der Evangelisch-Lutherischen
+Gebetsbruderschaft. Diese Auswahl ist so getroffen, dass man ganzjährig die
+folgenden vier Gebete in einer Grundform beten kann:\par
+\begin{asparaenum}
+\item Laudes -- das Morgenlob
+\item Sext -- das Mittagsgebet
+\item Vesper -- das Abendgebet und
+\item Complet -- das Nachtgebet.
+\end{asparaenum}
+Zusätzlich sind im Anhang reichere Responsorien für die Vesper sowie ein
+Reisesegen, das Vaterunser, ein lateinisches Credo und ein Psalmvers und Hymnus
+für die Complet in der Adventszeit abgedruckt.\par
+Laudes, Sext und Vesper sind teilweise an die Kirchenjahreszeit angepasst; der
+Charakter eines Auszugs verbietet aber eine vollständige Anpassung, andernfalls
+läge mit diesem Band eine Kopie des Breviers vor.
+\section*{Bestandteile}
+\begin{asparaenum}
+\item Psalmen mit Antiphonen und alttestamentliche Cantica
+\item Neutestamentliche Cantica:
+\begin{asparaitem}[$\triangleright$]
+ \item Das \enquote{Benedictus} (Lobgesang des Zacharias, Lk.1,68-79) in den
+Laudes
+\item Das \enquote{Magnificat} (Lobgesang der Maria, Lk. 1,46-55) in der Vesper
+\item Das \enquote{Nunc dimittis} (Lobgesang des Simeon, Lk. 2,29-32) in der
+Complet
+\end{asparaitem}
+\item Lesungen aus der Bibel nach dem Kirchenjahr (Texte sind in dieser Ausgabe
+nicht enthalten)
+\item Fürbitten
+\end{asparaenum}
+Die Ordnung dieses Buches reiht die Tagzeitengebete in ihrer Reihenfolge auf, am
+Morgen beginnend. Im Anhang des Buches findet sich der Reisesegen, der vor
+Antritt einer Reise gebetet werden kann sowie zwei Responsoria Prolixa für die
+Vesper am Sonntag und ein gemeinschaftlich gesungenes Vaterunser und
+lateinisches Credo für den Gebrauch in der Complet.
+\section*{Wie betet man die einzelnen Teile?}
+Das Grundprinzip der Tagzeitengebete ist responsorial, d.h. in den Gebeten gibt
+es ständigen Wechsel zwischen einem Vorbeter oder Amtsträger (gekennzeichnet mit
+\Vbar) und der versammelten Gebetsgemeinde (gekennzeichnet mit \Rbar). An
+Stellen, bei denen alle gemeinsam beten, ist dies mit \Abar gekennzeichnet.\par
+Daneben gibt es für die Psalmen und Hymnen eine Einteilung in zwei Gruppen, die
+mit römischen Zahlen gekennzeichnet sind. Gruppe I ist auf der Seite des
+Kantors, Gruppe II die gegenüberliegende.\par
+Am Anfang der Gebete steht der Ingressus, der den Beginn des Gebets markiert.
+Dabei steht die ganze Gebetsgemeinde.\par
+In der Complet geht ihm ein Segen, eine Lesung und ein gemeinsames
+Schuldbekenntnis voran.\par
+In der Laudes, Vesper und Complet folgt darauf die Psalmodie. Die Antiphon und
+der erste Psalmvers werden dabei vom Cantor (markiert mit \Vbar) bis zum Stern
+angestimmt, in der Antiphon fallen alle ein, im ersten Psalmvers die Gruppe I.
+Am Ende des Psalms wird die Antiphon wiederholt.\par
+Responsorien stimmt der Kantor an und wird ab dem Stern dabei von der Schola
+(aus anwesenden Amtsträgern) unterstützt. Die gesamte Gebetsgemeinde wiederholt
+den Gesang, nach dem von der Schola gesungenen Vers nur die zweite Hälfte, nach
+dem Gloria Patri wieder den gesamten Responsorialvers.\par
+Beim Hymnus wird die erste Strophe vom Kantor angestimmt und er dann ab dem
+Stern von Gruppe I unterstützt, danach die Strophen im Wechsel gesungen. Vor der
+letzten Strophe steht die Gebetsgemeinde auf und bleibt bis zum Ende des Gebetes
+stehen.\par
+Folgende Ämter gibt es:\par
+\begin{asparaenum}
+\item Lektor -- er/sie liest die Lesungen und das Capitel in der Complet.
+\item Kantor -- er/sie stimmt Gesänge an (Psalmodie, Cantica, Responsorium).
+\item Hebdomadarius -- \enquote{Wochendiensthaber}; er/sie betet die Gebete vor.
+\item Præses Chori -- geistlicher Leiter des Gebetes; er/sie erteilt den
+Lesesegen und den Abschlusssegen.
+\end{asparaenum}
+\section*{Besonderheiten}
+Von Aschermittwoch bis Ostersonntag entfällt das Halleluja in allen Gebeten und
+wird durch \enquote{Lob sei Dir, \textsc{Herr}, du König der ewigen
+Herrlichkeit} ersetzt. Vom Sonntag Judica bis Karsamstag entfällt das Gloria
+Patri in den Responsorien. Für Himmelfahrt und St. Michael finden sich für
+Laudes, Sext und Vesper gesonderte Versikel.
+\section*{Quadratnotation und wie sie gesungen wird\protect\footnote{\textbf{Quelle:} Bernhard K. Gröbler, Einführung in den Gregorianischen Choral, 2. Aufl. Jena 2005, S. 144.}}
+\subsection*{Schlüssel}
+\includegabcscore{schluessel.gabc}
+\includegabcscore{schluesself.gabc}
+Die vom Schlüssel umschlossene Linie markiert das c bzw. f.
+\subsection*{Einzeltöne}
+\includegabcscore{einzeltoene.gabc}\par
+\subsection*{Schnelle Tonverbindungen (Ligaturen)}
+\includegabcscore{ligaturen.gabc}
+Umschrift:\par
+\lilypondfile[staffsize=20]{ligaturen.ly}\par
+Der letzte Ton von Ligaturen ist stets leicht gedehnt bzw. artikuliert.
+\subsection*{Gedehnte Noten}
+\includegabcscore{episem.gabc}
+Bei Clivis und Pes gilt das Episem für beide Töne, wenn es bei der ersten Note
+steht, sonst gilt es nur für den zweiten Ton.
+\subsection*{\enquote{Liqueszierende} Noten (Liqueszenzneumen)}
+\includegabcscore{liqueszenz.gabc}
+Die kleine Note wird auf einen klingenden Konsonant (Semivokal) am Silbenende
+gesungen. Auch am Ende einer Ligatur sind entsprechende Liqueszenznoten möglich.
+\subsection*{Neographien}
+\includegabcscore{quilisma.gabc}
+Die gezackte Note ist ein kurzer, schwacher Ton, der zum Zielton leitet und kann
+ähnlich einem Glissando gesungen werden.\par
+\includegabcscore{neographien.gabc}
+\subsection*{Reperkussion}
+\includegabcscore{reperkussion.gabc}
+Der doppelte Ton wird auf gleicher Höhe neu angesetzt.
+\subsection*{Custos}
+Der Custos ist eine halbe Note am Ende einer Notenzeile, der den nachfolgenden
+Ton auf der nächsten Zeile anzeigt.\par
+\section*{Lektionstöne\protect\footnote{Quelle: Breviarium Lipsiensae 1988, S. 78f.}}
+Für die nicht vorgegebenen Lesungen in Laudes, Sext und Vesper gelten die untenstehenden Melodiemodelle. Der jeweilige Abschluss (Conclusio) findet sich in den Gebeten jeweils an der Stelle der Lesung.\par
+\subsection*{Laudes und Vesper sonntags}
+\includegabcscore{lt-lave-so.gabc}
+\subsection*{Laudes und Vesper werktags, Sext sonntags}
+\includegabcscore{lt-lave-we.gabc}
+\subsection*{Sext werktags}
+\includegabcscore{lt-se-we.gabc}

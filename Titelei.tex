@@ -1,0 +1,34 @@
+\pdfprotrudechars2
+\pdfadjustspacing2
+\pdfminorversion=7
+\pdfcompresslevel=9
+\pdfobjcompresslevel=3
+\documentclass[initial=ZallmanCaps,staff=19,font=greciliae,12pt,a4paper,openany,twoside,choralsign=PfefferMediaeval]{gregorian}
+\usepackage[ngerman,pdfstartview={FitH},bookmarksopen,colorlinks=true,menucolor=black,urlcolor=black,linkcolor=black]{hyperref}
+\setmainfont[Ligatures={Common,TeX},Numbers=OldStyle]{Linux Libertine O}
+\setsansfont[Ligatures={Common,TeX},Numbers=OldStyle,SmallCapsFont={Alcuin URW SC}]{Alcuin URW}
+\setmonofont[Ligatures={TeX}]{Inconsolata}
+\sloppy
+\semiisopage[20]
+\checkandfixthelayout[nearest]
+\pagestyle{myheadings}
+\makefootrule{myheadings}{\textwidth}{0.4pt}{\footruleskip}
+\makeheadrule{myheadings}{\textwidth}{0pt}
+\makeevenfoot{myheadings}{\thepage}{\gebet}{}
+\makeoddfoot{myheadings}{}{\gebet}{\thepage}
+\makeevenhead{myheadings}{\rightmark}{}{}
+\makeoddhead{myheadings}{\hphantom{\thechapter}}{}{}
+\hbadness 99999
+\begin{document}
+\frontmatter
+\thispagestyle{empty}
+\ThisTileWallPaper{21cm}{\paperheight}{lskj.pdf}
+\phantom{l}
+\vskip12em
+\begin{center}
+{\Huge\bfseries\sffamily GREGORIANISCHES BREVIER}\par\vskip0.5em
+{\Huge\bfseries\sffamily deutsch -- lateinisch}\par
+\vfill
+\end{center}
+
+\end{document}
