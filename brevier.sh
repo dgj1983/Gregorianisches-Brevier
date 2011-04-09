@@ -1,6 +1,6 @@
 #!/bin/bash
-lilypond-book --pdf --latex-program=luashell.sh erklaerung.lytex
-lilypond-book --pdf --latex-program=luashell.sh erklaerung.lytex
+/Applications/LilyPond.app/Contents/Resources/bin/lilypond-book --pdf --latex-program=luashell.sh erklaerung.lytex
+/Applications/LilyPond.app/Contents/Resources/bin/lilypond-book --pdf --latex-program=luashell.sh erklaerung.lytex
 luashell.sh GregorianischesBrevier
 luashell.sh GregorianischesBrevier
 luashell.sh GregorianischesBrevier
